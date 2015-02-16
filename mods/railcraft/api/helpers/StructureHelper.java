@@ -27,7 +27,7 @@ public interface StructureHelper {
 
     void placeSteelTank(World world, int x, int y, int z, int patternIndex, FluidStack fluid);
 
-    void placeWaterTank(World world, int x, int y, int z, int water);
+    void placeWaterTank(World world, int x, int y, int z, int patternIndex, int water);
     
     void placeFluxTransformer(World world, int x, int y, int z);
 
